@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.banner-conten{
+    background-image: url('../images/banner/banner1.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bannar-title{
+float: right;
+margin: 0 auto;
+margin-right: 150px;
+
+}
+
+.bannar-title h2{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 300px;
+    font-family: 'Noto Serif', serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.bannar-title p{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.contact-btn{
+    background:#fc6006;
+    color:aliceblue;
+    padding:15px 20px;
+    border: 0;
+    font-size: 16px;
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+    
