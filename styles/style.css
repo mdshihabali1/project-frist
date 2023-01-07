@@ -23,6 +23,7 @@ margin-right: 150px;
     font-family: 'Noto Serif', serif;
     font-size: 45px;
     font-weight: 700;
+    color:black;
 }
 .bannar-title p{
     text-align: right;
@@ -118,26 +119,92 @@ h2{
    
     .keep{
         margin-top: 100px;
-        text-align: center;
+        
         margin:50px 200px;
         margin-bottom: 200px;
+     
+         
     }
     .keep-title{
         background-image: url('../images/watch.png');
         background-repeat: no-repeat;
         background-size: cover;
         height: 200px;
-        background-image: linear-gradient(red, yellow);  
-        opacity: 0.6;  
+        -webkit-mask-image: linear-gradient(to right,red, transparent);
+        mask-image: linear-gradient (black,transparent);
+        
+       
     }
         
     
     .keep-title h3{
-        color:white;
-        font-size: 30px;
+        color:#1410e9;
+        font-size: 35px;
         font-weight: 900;
         font-family: 'Noto Serif', serif;
+       padding-top: 50px;
+       margin-left: 40px;
+       margin-bottom: 10px;
 
+    }
+    .positive{
+        background: #fc6006;
+        color:aliceblue;
+        text-align: left;
+        padding:15px 20px;
+        border-radius: 5px;
+        border:0;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left:40px;
+    }
+    /* footer start */
+    .foture-area{
+        display: flex;
+       
+    }
+    .future-section{
+        background:black ;
+        color:bisque;
+       
+    }
+    .foture-area{
+       padding: 0 200px;
+
+    }
+    .future-title h3{
+        margin-top: 100px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .future-title p{
+       text-align: left;
+       padding-right: 300px;
+       color:white;
+       margin-bottom: 20px;
+    }
+    .future-title h5{
+       font-size: 16px;
+       margin-bottom: 10px;
+    }
+    .future-title input{
+       background: black;
+       color:white;
+       padding:10px 40px;
+       border-radius: 10px;
+       text-align: center;
+    }
+    .subscribe-btn{
+        margin-top: 10px;
+        padding:10px 30px;
+        border-radius: 5px;
+        color:#fc6006;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .icon img{
+        margin-right: 10px;
+        margin-top: 20px;
     }
     
 
